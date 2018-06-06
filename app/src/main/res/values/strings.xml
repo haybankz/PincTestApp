@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PincTestApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search....</string>
+    <string name="bookmark_image">bookmark image</string>
+    <string name="posted_by">posted by</string>
+    <string name="commented_by">commented by</string>
+    <string name="zero">0</string>
+    <string name="report">Report</string>
+    <string name="share">Share</string>
+    <string name="comment">Comment</string>
+    <string name="add_a_post_or_question">Add a post or question</string>
+</resources>

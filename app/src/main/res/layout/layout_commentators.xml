@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/img_one"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/happy"
+        android:background="@drawable/image_background"
+        android:padding="1dp"/>
+
+    <ImageView
+        android:id="@+id/img_two"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/offended"
+        android:layout_marginStart="-8dp"
+        android:padding="2dp"
+        android:background="@drawable/image_background" />
+
+    <ImageView
+        android:id="@+id/img_three"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/crying"
+        android:layout_marginStart="-8dp"
+        android:padding="2dp"
+        android:background="@drawable/image_background"/>
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="-8dp"
+        android:padding="2dp"
+        android:background="@drawable/image_background"
+        tools:text="0"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+</LinearLayout>
